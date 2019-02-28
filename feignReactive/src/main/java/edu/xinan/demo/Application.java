@@ -2,15 +2,17 @@ package edu.xinan.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
- * webFlux基于注解编程
  * @author hoaven
+ * @date 2018/8/3
  */
 @SpringBootApplication
+@RestController
 public class Application {
-    public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
-    }
-}
 
+  public static void main(String[] args) {
+    SpringApplication.run(Application.class, args);
+  }
+}

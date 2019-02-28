@@ -15,8 +15,8 @@
  */
 package edu.xinan.demo;
 
-import edu.xinan.demo.model.Department;
-import edu.xinan.demo.model.Employee;
+import edu.xinan.demo.dto.Department;
+import edu.xinan.demo.dto.Employee;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.server.ServerRequest;

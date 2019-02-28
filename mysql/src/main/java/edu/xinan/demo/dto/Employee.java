@@ -1,4 +1,4 @@
-package edu.xinan.demo.model;
+package edu.xinan.demo.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

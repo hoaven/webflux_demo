@@ -15,8 +15,8 @@
  */
 package edu.xinan.demo;
 
-import edu.xinan.demo.model.Department;
-import edu.xinan.demo.model.Employee;
+import edu.xinan.demo.dto.Department;
+import edu.xinan.demo.dto.Employee;
 import io.reactivex.Flowable;
 import org.davidmoten.rx.jdbc.ConnectionProvider;
 import org.davidmoten.rx.jdbc.Database;
